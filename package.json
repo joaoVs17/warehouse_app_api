@@ -1,0 +1,27 @@
+{
+  "name": "warehouse_app_api",
+  "version": "1.0.0",
+  "description": "An app for warehouse_app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js",
+    "start:dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaoVs17/warehouse_app_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaoVs17/warehouse_app_api/issues"
+  },
+  "homepage": "https://github.com/joaoVs17/warehouse_app_api#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
